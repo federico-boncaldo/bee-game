@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bee Test</title>
+	</head>
+	<body>
+		<ul>
+		<?php
+
+			foreach($bees as $bee)
+			{
+		?>
+			<li><?php echo $bee->type() ?> : points <?php echo $bee->hitPoints() ?></li>
+		<?php
+			}
+		?>
+		</ul>
+
+		<form action="/" method="post">
+			<button>Hit</button>
+		</form>
+	</body>
+</html>
