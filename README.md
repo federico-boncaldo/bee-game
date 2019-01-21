@@ -4,21 +4,24 @@ A PHP implementation of the bee game.
 
 Once the application is opened in the browser you will see 14 bees which belong to three groups:
 
-*Queen Bee*:
-    * Lifespan of _100 Hit Points_;
-    * When she is hit, _8 Hit Points_ are deducted for her lifespan;
-    * When the queen run out of Hit Points, all the other bees run out of Hit Points automatically;
-    * There is only _1_ bee of this type;
+**Queen Bee**:
 
-*Worker Bee*:
-    * Lifespan of _75 Hit Points_;
-    * When it is hit, _10 Hit Points_ are deducted for its lifespan;
-    * There are _5_ bees of this type;
+* Lifespan of _100 Hit Points_;
+* When she is hit, _8 Hit Points_ are deducted for her lifespan;
+* When the queen run out of Hit Points, all the other bees run out of Hit Points automatically;
+* There is only _1_ bee of this type;
 
-*Drone Bee*:
-    * Lifespan of _50 Hit Points_;
-    * When it is hit, _12 Hit Points_ are deducted for its lifespan;
-    * There are _8_ bees of this type;
+**Worker Bee**:
+
+* Lifespan of _75 Hit Points_;
+* When it is hit, _10 Hit Points_ are deducted for its lifespan;
+* There are _5_ bees of this type;
+
+**Drone Bee**:
+
+* Lifespan of _50 Hit Points_;
+* When it is hit, _12 Hit Points_ are deducted for its lifespan;
+* There are _8_ bees of this type;
 
 ## How to use the software
 
